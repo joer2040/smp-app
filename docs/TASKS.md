@@ -265,7 +265,11 @@
 - [x] Crear formulario simple por codigo
 - [x] Guardar datos localmente
 - [x] Mostrar registros en tabla
-- [ ] Integrar Supabase PostgreSQL
-- [ ] Integrar sincronizacion
-- [ ] Probar modo offline/online
-- [ ] Validar que no existan duplicados
+- [x] Integrar Supabase PostgreSQL
+- [x] Integrar sincronizacion
+- [x] Probar modo offline/online
+- [x] Validar que no existan duplicados en el flujo E2E probado
+
+Evidencia: `docs/VALIDATION_TASK03_E2E.md`.
+
+Nota: queda recomendada una prueba dedicada de idempotencia para doble click, retry repetido y re-sync manual.
